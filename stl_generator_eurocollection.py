@@ -33,12 +33,12 @@ def main():
     for country in list_of_countries:
         print(country)
         if len(country)>9:
-            subprocess.call('openscad -D \'country=\"'+ country+'\"\' -D \'fontsize=3\' -o '+country+'.stl' +' eurocollectioncountries.scad' ,shell=True)
+            subprocess.call('openscad -D \'country=\"'+ country+'\"\' -D \'fontsize=3\' -o '+country+'_eurocollection.stl' +' eurocollectioncountries.scad' ,shell=True)
         elif len(country)>6:
-            subprocess.call('openscad -D \'country=\"'+ country+'\"\' -D \'fontsize=3.5\' -o '+country+'.stl' +' eurocollectioncountries.scad' ,shell=True)
+            subprocess.call('openscad -D \'country=\"'+ country+'\"\' -D \'fontsize=3.7\' -o '+country+'_eurocollection.stl' +' eurocollectioncountries.scad' ,shell=True)
         else:
         #subprocess.call('openscad -D \'country=\"Alemania\"\'  -o '+'\'Prueba.stl\''+ ' eurocollectioncountries.scad' ,shell=True)
-            subprocess.call('openscad -D \'country=\"'+ country+'\"\' -o '+country+'.stl' +' eurocollectioncountries.scad' ,shell=True)
+            subprocess.call('openscad -D \'country=\"'+ country+'\"\' -o '+country+'_eurocollection.stl' +' eurocollectioncountries.scad' ,shell=True)
 
     subprocess.call('notify-send -t 4500 "STL Files Generation completed"' ,shell=True)
 
