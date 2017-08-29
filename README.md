@@ -1,6 +1,8 @@
-# eurocollectionholders
+# Euro Coin Collection Holders
 
-A collection euro coin holder with the name of each country and an openscad_to_stl python file to automatically generate each country stl file
+![](images/eurocollection_1.jpg)
+
+A collection euro coin holder with the name of each country and an openscad_to_stl python program to automatically generate each country stl file
 
 https://youtu.be/tTWXL9Njaf8
 
@@ -10,6 +12,10 @@ https://youtu.be/tTWXL9Njaf8
 " target="_blank"><img src="http://img.youtube.com/vi/tTWXL9Njaf8/0.jpg"
 alt="Time to meal video" width="240" height="180" border="10" /></a></center><br><br>
 
+
+Thingiverse link:
+
+https://www.thingiverse.com/thing:2505312
 
 ***
 
