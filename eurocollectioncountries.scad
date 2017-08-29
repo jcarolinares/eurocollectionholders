@@ -16,7 +16,7 @@ jcarolinares@gmail.com
 */
 
 // Country name
-country="España"; // ["Alemania","Austria","Bélgica","Chipre","Eslovaquia","Eslovenia","España","Estonia","Finlandia","Francia","Grecia","Irlanda","Italia","Letonia","Lituania","Luxemburgo","Malta","PaísesBajos","Portugal"]
+country="España";
 
 // Size of the text
 fontsize=4.5;
