@@ -23,8 +23,8 @@ import subprocess
 
 
 #List of countries that uses the euro Source: https://europa.eu/european-union/about-eu/money/euro_en
-#list_of_countries=["Alemania","Austria","Bélgica","Chipre","Eslovaquia","Eslovenia","España","Estonia","Finlandia","Francia","Grecia","Irlanda","Italia","Letonia","Lituania","Luxemburgo","Malta","PaísesBajos","Portugal"]
-list_of_countries=["Austria", "Belgium", "Cyprus", "Estonia", "Finland", "France", "Germany", "Greece", "Ireland", "Italy", "Latvia", "Lithuania", "Luxembourg", "Malta", "Netherlands", "Portugal", "Slovakia", "Slovenia", "Spain"]
+#list_of_countries=["Alemania","Austria","Bélgica","Chipre","Eslovaquia","Eslovenia","España","Estonia","Finlandia","Francia","Grecia","Irlanda","Italia","Letonia","Lituania","Luxemburgo","Malta","PaísesBajos","Portugal","Andorra", "Mónaco", "SanMarino", "Vaticano"]
+list_of_countries=["Austria", "Belgium", "Cyprus", "Estonia", "Finland", "France", "Germany", "Greece", "Ireland", "Italy", "Latvia", "Lithuania", "Luxembourg", "Malta", "Netherlands", "Portugal", "Slovakia", "Slovenia", "Spain","Andorra", "Mónaco", "SanMarino", "Vatican"]
 
 
 def main():
